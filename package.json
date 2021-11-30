@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "workspaces": [
+    "api/",
+    "app/"
+  ],
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.3",
+    "typescript-eslint": "^0.0.1-alpha.0"
+  },
+  "resolutions": {
+    "graphql": "^15.5.0"
+  },
+  "dependencies": {
+    "graphql": "^15.5.0"
+  }
+}

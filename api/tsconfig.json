@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "target": "es2019",
+        "lib": [
+            "ES2019",
+            "ES2020.Promise"
+        ],
+        "paths": {
+            "*": [
+                "./@types/*"
+            ]
+        },
+        "baseUrl": ".",
+        "types": [
+            "node"
+        ]
+    },
+    "exclude": [
+        "**/node_modules/"
+    ]
+}

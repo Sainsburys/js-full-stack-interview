@@ -1,0 +1,42 @@
+node_modules
+
+dist
+.webpack
+
+.env.prod
+.env.dev
+.env.offline
+
+# IDE
+.idea
+
+# packages logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Prefer Yarn
+package-lock.json
+
+# json files for invoking a function locally
+.invoke-local-mocks
+
+# vscode
+/.vscode
+
+.DS_Store
+
+# serverless
+.serverless
+
+# vim
+.swp
+
+# SnowSQL
+snowsql_rt.log*
+
+# nyc
+.nyc_output/
+
+# coverage
+coverage/

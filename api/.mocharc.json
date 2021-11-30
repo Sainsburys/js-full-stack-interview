@@ -1,0 +1,17 @@
+{
+  "extension": [
+    "ts"
+  ],
+  "spec": [
+    "src/**/*.test.ts",
+  ],
+  "require": [
+    "ts-node/register",
+    "tsconfig-paths/register"
+  ],
+  "ignore": [
+    "node_modules/*",
+    "**/node_modules/**/*"
+  ],
+  "diff": true
+}
